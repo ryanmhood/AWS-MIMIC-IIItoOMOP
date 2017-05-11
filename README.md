@@ -23,7 +23,7 @@ an openly available research dataset called MIMIC-III and converts it into a sta
 4. Open the config.json file in the "config" directory that was just copied and replace all references of "<your s3 bucket>" to the name of the bucket you created in step 1
 	* Also, ensure that your source file names from the mimic3 data match what is listed in this file.  If they do not match, either rename the files or change the references in the config file.
 5. Create a folder called “jars” and upload both the "RedshiftCopier-1.0.0-jar-with-dependencies.jar" and "SparkBatchProcessor-1.0.0-jar-with-dependencies.jar" jars within that folder 
-	* These jars can either be outputs of the build of those two Java programs or you can download them directly [here] and [here].
+	* These jars will be produced after you build the project.
 6. Create a new Stack in CloudFormation called "Redshift" and reference the redshift.json template in the "cloudformation" folder within S3.
 	* You will need to pass the following parameters to this template:
 		1. "Security Group" - this should be the default security group in your VPC
