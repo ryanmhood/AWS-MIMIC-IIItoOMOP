@@ -1,6 +1,6 @@
 # Build a Healthcare Data Warehouse using Spark and the OHDSI Common Data Model
 
-This code demonstrates the architecture featured on the AWS big data blog (https://aws.amazon.com/blogs/big-data/) on creating a healthcare data warehouse using Redshift, Spark on EMR and Lambda.  It takes 
+This code demonstrates the architecture featured on the AWS big data blog (https://aws.amazon.com/blogs/big-data/) on creating a healthcare data warehouse using Redshift, Spark on EMR and Lambda that was published on May 12, 2017.  It takes 
 an openly available research dataset called MIMIC-III and converts it into a standard open source healthcare data model called OMOP.
 
 
